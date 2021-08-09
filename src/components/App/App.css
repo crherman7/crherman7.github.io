@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+.App {
+  margin: 30pt;
+  font-family: 'Open Sans';
+  font-weight: 700;
+}
+
+.App-header-logo {
+  height: 10vmin;
+  width: auto;
+}
+
+.App-header {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.App-header-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(6px);
+}
+
+.App-header-text {
+  margin-left: 10pt;
+  font-size: calc(15px + 2vmin);
+  font-weight: 700;
+}
+
+.App-header-divider {
+  height: 1pt;
+  width: 100%;
+  background-color: lightgray;
+}
+
+.App-preview {
+  text-align: center;
+}
+
+.App-preview-image {
+  height: 70vmin;
+}
+
+.App-preview-images {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10pt;
+}
+
+.App-preview-text {
+  font-weight: 500;
+  font-size: 15pt;
+}
+
+.App-download {
+  height: 10vmin;
+  margin-top: 10pt;
+}
+
+.App-privacy {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.App-privacy-header {
+  font-size: 15pt;
+  font-weight: 700;
+}
+
+.App-privacy-subheader {
+  font-size: 12pt;
+  font-weight: 600;
+}
+
+.App-privacy-body {
+  font-size: 10pt;
+  font-weight: 500;
+  margin-top: -5pt;
+}
+
+.link {
+  text-decoration: none;
+  color: #026fc9;
+}
